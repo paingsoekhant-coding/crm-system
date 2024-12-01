@@ -8,7 +8,9 @@
     <div class="py-4">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="">
-                <button class="bg-teal-500 my-4 rounded-md p-3 text-white">Create Client</button>
+                <a href="{{ route('client.create') }}">
+                    <button class="bg-teal-500 my-2 rounded-md p-2 text-white">Create Client</button>
+                </a>
             </div>
 
             @if (count($clients) != 0)
