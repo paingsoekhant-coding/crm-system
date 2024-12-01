@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
@@ -19,6 +20,7 @@ Route::middleware('auth')->group(function () {
     Route::prefix('user')->group(function () {
         Route::get('lists', [UserController::class, 'list'])->name('user.lists');
     });
+    Route::resource('client', ClientController::class);
 });
 
 require __DIR__ . '/auth.php';

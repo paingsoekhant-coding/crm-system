@@ -72,7 +72,7 @@
                                 </td>
                                 <td class="p-4 border-b border-blue-gray-50 flex">
                                     <a href="#"
-                                        class="block p-2 me-2 font-sans text-sm antialiased font-medium leading-normal text-blue-gray-900 bg-cyan-700 rounded-md">
+                                        class="block p-2 me-2 font-sans text-sm antialiased hover:bg-cyan-500 font-medium leading-normal text-blue-gray-900 bg-cyan-700 rounded-md">
                                         Edit
                                     </a>
                                     {{-- <a href="#"
